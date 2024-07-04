@@ -1,0 +1,10 @@
+Color palette for this project
+
+Orange - #FD4F00
+Navy Blue - #061F5C
+Dark ash - #CFCBCA
+Light ash - #D8DDD
+Sky blue - #D9F7FA
+
+Font Used
+Inter
