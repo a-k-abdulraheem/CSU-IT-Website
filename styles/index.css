@@ -19,29 +19,44 @@ body {
   color: #000000;
   background-color: #ffffff;
   font-size: 1.4rem;
+  color: #ffffff;
+}
+
+.nav__background {
+  background-image: linear-gradient(
+    to right,
+    var(--color-orange) 50%,
+    var(--color-blue) 50%
+  );
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1400px;
+  margin: auto;
 }
 
 .logo {
   background-color: var(--color-orange);
   padding: 1rem;
+  flex: 1;
 }
 
 .nav__list {
   list-style-type: none;
   background-color: var(--color-blue);
-  padding: 1rem;
+  padding: 2rem;
   align-self: stretch;
   display: flex;
   align-items: center;
+  /* justify-content: center; */
+  /* gap: 1rem; */
+  /* flex: 1; */
 }
 
 .nav__item {
   display: inline-block;
-  background-color: bisque;
+  /* padding: 0 1rem; */
 }
