@@ -11,5 +11,4 @@ setInterval(() => {
   });
   activeSlide++;
   activeSlide %= slides.length;
-  console.log(activeSlide);
-}, 5000);
+}, 3500);
