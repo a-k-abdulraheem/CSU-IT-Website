@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles/index.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="nav__background">
         <nav class="nav">
           <div class="logo">
@@ -73,22 +73,47 @@
       </div>
     </header>
 
-    <main>
+    <main class="main">
       <!-- Csu IT Services starts here-->
-      <div class="it_services">
-        <div class="it_services__header">IT Services</div>
-        <div class="teams"><img src="" alt="" /><span>Teams</span></div>
-        <div class="bustracker">
-          <img src="" alt="" /><span>Bus Tracker</span>
-        </div>
-        <div class="kius"><img src="" alt="" /><span>Mobile Kius</span></div>
-        <div class="pc_repairs">
-          <img src="" alt="" /><span>Pc Repairs</span>
+      <div class="section it_services">
+        <div class="it_services__heading">CSU IT Services</div>
+        <div class="it_services__subheading">Subheading</div>
+        <div class="all__services">
+          <div class="service--container">
+            <a>
+              <img
+                src="images/microsoft-teams-logo.png"
+                alt="Microsoft Teams"
+              />
+              <div class="service--text">Microsoft Teams</div>
+            </a>
+          </div>
+          <div class="service--container">
+            <a>
+              <img
+                src="images/csu-bus-tracker-logo.png"
+                alt="CSU Bus Tracker"
+              />
+              <div class="service--text">Bus Tracker</div>
+            </a>
+          </div>
+          <div class="service--container">
+            <a>
+              <img src="images/kius-mobile-logo.png" alt="KIUS Mobile" />
+              <div class="service--text">KIUS Mobile</div>
+            </a>
+          </div>
+          <div class="service--container">
+            <a>
+              <img src="images/kius-web-logo.png" alt="KIUS Web" />
+              <div class="service--text">KIUS Desktop</div>
+            </a>
+          </div>
         </div>
       </div>
       <!-- Csu IT Services  ends here-->
 
-      <div class="database_mgt">
+      <div class="section database_mgt">
         <div class="database_mgt__header">Database Management</div>
         <!-- First flexed item -->
         <div class="database_system_flex">
