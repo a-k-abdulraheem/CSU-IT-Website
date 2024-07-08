@@ -36,14 +36,16 @@ slider.addEventListener("mouseout", function (e) {
     slidingID = activateSlider(slidingID);
 });
 // To navigate through sliders
-slider.addEventListener("click", function (e) {
-  e.preventDefault();
-  if (e.target.classList.contains("slide__indc")) {
-    deactivateSlider(slidingID);
-    activeSlide = e.target.dataset.slideIndc;
+document
+  .querySelector(".slides__indicator")
+  .addEventListener("click", function (e) {
+    e.preventDefault();
+    if (e.target.classList.contains("slide__indc")) {
+      deactivateSlider(slidingID);
+      activeSlide = e.target.dataset.slideIndc;
 
-    updateSlider();
+      updateSlider();
 
-    slidingID = activateSlider(slidingID);
-  }
-});
+      slidingID = activateSlider();
+    }
+  });
