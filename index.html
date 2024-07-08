@@ -14,49 +14,65 @@
             <img src="images/CSU Logo.png" alt="CSU Logo" width="200px" />
           </div>
           <ul class="nav__list">
-            <li class="nav__item">About us</li>
-            <li class="nav__item">Information Center</li>
-            <li class="nav__item">General Rules</li>
-            <li class="nav__item">Borrowing Conditions</li>
-            <li class="nav__item">Our Team</li>
+            <li class="nav__item"><a href="">About us</a></li>
+            <li class="nav__item"><a href="">Information Center</a></li>
+            <li class="nav__item"><a href="">General Rules</a></li>
+            <li class="nav__item"><a href="">Borrowing Conditions</a></li>
+            <li class="nav__item"><a href="">Our Team</a></li>
           </ul>
         </nav>
       </div>
       <div class="slider">
-        <div class="slide slide--1" style="transform: translate(0%, 0%)">
+        <!-- All Slider images must have same size as slide--0 -->
+        <div class="slide slide--0" style="transform: translateX(0%)">
           <img src="images/slider-image-1.png" alt="" class="slide__img" />
           <div class="slide__content">
             <div class="slide__header">Relentless Team Workers</div>
             <div class="slide__details">
               We focus on solving critical problems
             </div>
-            <button class="btn slide__btn--see-more">See more &rarr;</button>
+            <a class="btn slide__btn--see-more">
+              See more<img
+                src="images/icons/arrow-right.svg"
+                class="arrow--right"
+              />
+            </a>
           </div>
         </div>
-        <div class="slide slide--2" style="transform: translate(100%, -100%)">
+        <div class="slide slide--1" style="transform: translateX(100%)">
           <img src="images/slider-image-2.png" alt="" class="slide__img" />
           <div class="slide__content">
             <div class="slide__header">Relentless Team Workers</div>
             <div class="slide__details">
               We focus on solving critical problems
             </div>
-            <button class="btn slide__btn--see-more">See more &rarr;</button>
+            <a class="btn slide__btn--see-more">
+              See more
+              <img src="images/icons/arrow-right.svg" class="arrow--right" />
+            </a>
           </div>
         </div>
-        <div class="slide slide--3" style="transform: translate(200%, -200%)">
+        <div class="slide slide--2" style="transform: translateX(200%)">
           <img src="images/slider-image-3.png" alt="" class="slide__img" />
           <div class="slide__content">
             <div class="slide__header">Relentless Team Workers</div>
             <div class="slide__details">
               We focus on solving critical problems
             </div>
-            <button class="btn slide__btn--see-more">
-              See more <span class="right_arrow"> &rarr;</span>
-            </button>
+            <a class="btn slide__btn--see-more">
+              See more
+              <img src="images/icons/arrow-right.svg" class="arrow--right" />
+            </a>
           </div>
+        </div>
+        <div class="slides__indicator">
+          <div class="slide__indc slide--active" data-slide-indc="0"></div>
+          <div class="slide__indc" data-slide-indc="1"></div>
+          <div class="slide__indc" data-slide-indc="2"></div>
         </div>
       </div>
     </header>
+
     <main>
       <!-- Csu IT Services starts here-->
       <div class="it_services">
