@@ -1,7 +1,7 @@
 const slider = document.querySelector(".slider");
 const slides = document.querySelectorAll(".slide");
 
-// demo
+// Slider
 let activeSlide = 1;
 
 const updateSlider = function () {
