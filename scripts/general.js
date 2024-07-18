@@ -1,6 +1,6 @@
 const hamburgerMenu = document.querySelector(".nav__menu");
 const nav = document.querySelector(".nav");
-const sections = document.querySelectorAll(".section__container");
+const sectionsToObserve = document.querySelectorAll(".section--animate");
 
 // Hamburger menu
 hamburgerMenu.addEventListener("click", function (e) {
@@ -15,8 +15,6 @@ hamburgerMenu.addEventListener("click", function (e) {
 });
 
 //
-const sectionsToObserve = Array.from(sections).slice(0, -1);
-
 const obsCallback = function (entries, observer) {
   const [entry] = entries;
   if (entry.isIntersecting) {

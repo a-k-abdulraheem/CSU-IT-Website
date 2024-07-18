@@ -12,77 +12,76 @@
     <script defer src="scripts/index.js"></script>
   </head>
   <body>
-    <header class="header section__container">
-      <div class="nav__background">
-        <nav class="nav">
-          <div class="logo">
-            <img src="images/CSU Logo.png" alt="CSU Logo" width="200px" />
-            <div class="nav__menu btn">
-              <i class="ri-menu-4-fill"></i>
-            </div>
-          </div>
-          <ul class="nav__list">
-            <li class="nav__item"><a href="">About us</a></li>
-            <li class="nav__item"><a href="">Information Center</a></li>
-            <li class="nav__item"><a href="">General Rules</a></li>
-            <li class="nav__item"><a href="">Borrowing Conditions</a></li>
-            <li class="nav__item"><a href="">Our Team</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div class="slider">
-        <!-- All Slider images must have same size as slide--0 -->
-        <div class="slide slide--0" style="transform: translateX(0%)">
-          <img src="images/slider-image-1.png" alt="" class="slide__img" />
-          <div class="slide__content">
-            <div class="section--heading">Relentless Team Workers</div>
-            <div class="slide__details section--subheading">
-              We focus on solving critical problems
-            </div>
-            <a class="btn slide__btn--see-more">
-              See more<img
-                src="images/icons/arrow-right.svg"
-                class="arrow--right"
-              />
-            </a>
+    <header class="header">
+      <nav class="nav section__container">
+        <div class="logo">
+          <img src="images/CSU Logo.png" alt="CSU Logo" width="200px" />
+          <div class="nav__menu btn">
+            <i class="ri-menu-4-fill"></i>
           </div>
         </div>
-        <div class="slide slide--1" style="transform: translateX(100%)">
-          <img src="images/slider-image-2.png" alt="" class="slide__img" />
-          <div class="slide__content">
-            <div class="section--heading">Relentless Team Workers</div>
-            <div class="slide__details section--subheading">
-              We focus on solving critical problems
-            </div>
-            <a class="btn slide__btn--see-more">
-              See more
-              <img src="images/icons/arrow-right.svg" class="arrow--right" />
-            </a>
-          </div>
-        </div>
-        <div class="slide slide--2" style="transform: translateX(200%)">
-          <img src="images/slider-image-3.png" alt="" class="slide__img" />
-          <div class="slide__content">
-            <div class="section--heading">Relentless Team Workers</div>
-            <div class="slide__details section--subheading">
-              We focus on solving critical problems
-            </div>
-            <a class="btn slide__btn--see-more">
-              See more
-              <img src="images/icons/arrow-right.svg" class="arrow--right" />
-            </a>
-          </div>
-        </div>
-        <div class="slides__indicator">
-          <div class="slide__indc slide--active" data-slide-indc="0"></div>
-          <div class="slide__indc" data-slide-indc="1"></div>
-          <div class="slide__indc" data-slide-indc="2"></div>
-        </div>
-      </div>
+        <ul class="nav__list">
+          <li class="nav__item"><a href="">About us</a></li>
+          <li class="nav__item"><a href="">Information Center</a></li>
+          <li class="nav__item"><a href="">General Rules</a></li>
+          <li class="nav__item"><a href="">Borrowing Conditions</a></li>
+          <li class="nav__item"><a href="">Our Team</a></li>
+        </ul>
+      </nav>
     </header>
 
+    <div class="slider section__container">
+      <!-- All Slider images must have same size as slide--0 -->
+      <div class="slide slide--0" style="transform: translateX(0%)">
+        <img src="images/slider-image-1.png" alt="" class="slide__img" />
+        <div class="slide__content">
+          <div class="section--heading">Relentless Team Workers</div>
+          <div class="slide__details section--subheading">
+            We focus on solving critical problems
+          </div>
+          <a class="btn slide__btn--see-more">
+            See more<img
+              src="images/icons/arrow-right.svg"
+              class="arrow--right"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="slide slide--1" style="transform: translateX(100%)">
+        <img src="images/slider-image-2.png" alt="" class="slide__img" />
+        <div class="slide__content">
+          <div class="section--heading">Relentless Team Workers</div>
+          <div class="slide__details section--subheading">
+            We focus on solving critical problems
+          </div>
+          <a class="btn slide__btn--see-more">
+            See more
+            <img src="images/icons/arrow-right.svg" class="arrow--right" />
+          </a>
+        </div>
+      </div>
+      <div class="slide slide--2" style="transform: translateX(200%)">
+        <img src="images/slider-image-3.png" alt="" class="slide__img" />
+        <div class="slide__content">
+          <div class="section--heading">Relentless Team Workers</div>
+          <div class="slide__details section--subheading">
+            We focus on solving critical problems
+          </div>
+          <a class="btn slide__btn--see-more">
+            See more
+            <img src="images/icons/arrow-right.svg" class="arrow--right" />
+          </a>
+        </div>
+      </div>
+      <div class="slides__indicator">
+        <div class="slide__indc slide--active" data-slide-indc="0"></div>
+        <div class="slide__indc" data-slide-indc="1"></div>
+        <div class="slide__indc" data-slide-indc="2"></div>
+      </div>
+    </div>
+
     <!-- Csu IT Services starts here-->
-    <div class="it_services section__container">
+    <div class="it_services section__container section--animate">
       <div class="section--heading">CSU IT Services</div>
       <div class="section--subheading">Subheading</div>
       <div class="all__services">
@@ -114,7 +113,7 @@
     </div>
     <!-- Csu IT Services  ends here-->
 
-    <div class="database_mgt section__container">
+    <div class="database_mgt section__container section--animate">
       <div class="section--heading">CSU IT Database Management</div>
       <!-- First flexed item -->
       <div class="database_system_flex">
@@ -167,7 +166,7 @@
       <!-- End of second flexed item -->
     </div>
 
-    <footer class="section__container">
+    <footer class="footer section__container">
       <div class="footer_flex">
         <div class="social_media_icons">
           <div>

@@ -1,0 +1,11 @@
+.heading__container {
+  max-width: 100%;
+  background-color: var(--color-blue);
+  color: var(--color-light-ash);
+  border-top: none !important;
+  margin-top: 5rem;
+}
+
+.main {
+  height: 1000px;
+}
