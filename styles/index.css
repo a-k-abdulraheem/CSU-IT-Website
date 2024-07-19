@@ -215,6 +215,27 @@
   }
 }
 
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5 {
+  /* border: 2px red solid; */
+  margin-top: 50px;
+
+  img {
+    width: 100%;
+    /* border: 2px red solid; */
+    margin-top: 30px;
+  }
+}
+
+.display-container {
+  border: 4px black solid;
+  margin-top: 4rem;
+  border-radius: 16px;
+  padding: 2rem;
+}
 /* Desktop container utility class */
 
 /* 2xl */
