@@ -40,6 +40,10 @@ a {
 .header {
   color: #ffffff;
   background-color: var(--color-blue);
+  border-bottom: 2px var(--color-light-ash) solid;
+  /* position: sticky;
+  z-index: 10;
+  top: 0; */
 }
 
 .section--heading {
