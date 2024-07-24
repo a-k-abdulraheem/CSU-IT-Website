@@ -17,10 +17,9 @@
   border-radius: 10px;
   margin-bottom: 20px;
   position: relative;
-  transition: 0.5s all;
   /* border: 2px red solid; */
   img {
-    width: 100%;
+    width: 90%;
     margin: auto;
     align-self: center;
     max-height: 500px;
@@ -40,7 +39,6 @@
     right: 0;
     left: 0;
     bottom: 0px;
-
     h3,
     h4 {
       margin-bottom: 10px;
@@ -49,7 +47,8 @@
 }
 
 .worker-1:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
+  transition: 0.5s all;
 }
 
 .exceptional-team {

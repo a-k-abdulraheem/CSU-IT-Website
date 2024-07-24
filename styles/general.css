@@ -64,6 +64,15 @@ a {
   font-size: 1.8rem;
 }
 
+.page-heading {
+  max-width: 100%;
+  background-color: var(--color-blue);
+  color: var(--color-light-ash);
+  margin-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 /* NAVIGATION */
 .header.sticky {
   position: sticky;
