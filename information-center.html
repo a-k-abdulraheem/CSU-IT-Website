@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Databases | CSU IT Department</title>
+    <title>IT Department | Cyprus Science University (CSU)</title>
     <link rel="stylesheet" href="styles/general.css" />
-    <link rel="stylesheet" href="styles/database.css" />
+    <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="font/fonts/remixicon.css" />
 
     <script defer src="scripts/general.js"></script>
-    <script defer type="module" src="scripts/database.js"></script>
+    <script defer src="scripts/index.js"></script>
   </head>
   <body>
     <header class="header">
@@ -23,37 +23,22 @@
           </div>
         </div>
         <ul class="nav__list">
-          <li class="nav__item"><a href="">About us</a></li>
-          <li class="nav__item"><a href="">Information Center</a></li>
-          <li class="nav__item"><a href="">General Rules</a></li>
-          <li class="nav__item"><a href="">Borrowing Conditions</a></li>
-          <li class="nav__item"><a href="">Our Team</a></li>
+          <li class="nav__item">
+            <a href="about-us.html">About us</a>
+          </li>
+          <li class="nav__item nav__item--active">
+            <a href="information-center.html">Information Center</a>
+          </li>
+          <li class="nav__item">
+            <a href="general-rules.html">General Rules</a>
+          </li>
+          <li class="nav__item">
+            <a href="borrowing-conditions.html">Borrowing Conditions</a>
+          </li>
+          <li class="nav__item"><a href="our-team.html">Our Team</a></li>
         </ul>
       </nav>
     </header>
-
-    <div class="section__container page-heading js-first-section">
-      <h1 class="section--heading">CSU IT Databases</h1>
-    </div>
-
-    <main class="main section__container">
-      <div class="database-options">
-        <div
-          class="open-access-database-option database-option section--title btn option--active"
-        >
-          Open Access Database
-        </div>
-        <div
-          class="subscribed-database-option database-option section--title btn"
-        >
-          Subscribed Database
-        </div>
-      </div>
-      <div class="database-links--container">
-        <div class="open-access-database--links"></div>
-        <div class="subscribed-database--links"></div>
-      </div>
-    </main>
 
     <footer class="footer section__container">
       <div class="footer_flex">
