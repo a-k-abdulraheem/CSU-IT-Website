@@ -1,0 +1,373 @@
+export const openAccessDatabases = [
+  {
+    sectionTitle: "Dictionaries",
+    links: [
+      {
+        linkTitle: "en.oxforddictionaries.com(english)",
+        backGroundColor: "#ffffff",
+        imgAdd: "images/Databases/open-access/Dictionaries/oxford.webp",
+        altTxt: "",
+      },
+      {
+        linkTitle: "",
+        backGroundColor: "#ffffff",
+        imgAdd: "images/Databases/open-access/Dictionaries/collins.svg",
+        altTxt: "",
+      },
+      {
+        linkTitle: "",
+        backGroundColor: "#0f173b",
+        imgAdd: "images/Databases/open-access/Dictionaries/cambridge.png",
+        altTxt: "",
+      },
+      {
+        linkTitle: "",
+        backGroundColor: "#ffffff",
+        imgAdd:
+          "images/Databases/open-access/Encyclopedias/merriam-webster.png",
+        altTxt: "",
+      },
+      {
+        linkTitle: "",
+        backGroundColor: "#e9f2fc",
+        imgAdd: "images/Databases/open-access/Dictionaries/yerel-rehba.png",
+        altTxt: "",
+      },
+    ],
+  },
+  {
+    sectionTitle: "Encyclopedia",
+    links: [
+      {
+        linkTitle: "",
+        backGroundColor: "#071c2e",
+        imgAdd: "images/Databases/open-access/Encyclopedias/britannica.webp",
+        altTxt: "",
+      },
+      {
+        linkTitle: "",
+        backGroundColor: "#ffffff",
+        imgAdd:
+          "images/Databases/open-access/Encyclopedias/merriam-webster.png",
+        altTxt: "",
+      },
+    ],
+  },
+  {
+    sectionTitle: "Biographies",
+    links: [
+      {
+        linkTitle: "",
+        backGroundColor: "",
+        imgAdd: "images/Databases/open-access/Biographies/",
+        altTxt: "",
+      },
+      {
+        linkTitle: "",
+        backGroundColor: "#18273d",
+        imgAdd:
+          "images/Databases/open-access/Biographies/The-Pulitzer-Prizes.jpeg",
+        altTxt: "",
+      },
+      {
+        linkTitle: "",
+        backGroundColor: "",
+        imgAdd: "images/Databases/open-access/Biographies/",
+        altTxt: "",
+      },
+    ],
+  },
+  {
+    sectionTitle: "Maps",
+    links: [
+      {
+        linkTitle: "",
+        backGroundColor: "#005af0",
+        imgAdd: "images/Databases/open-access/maps/world-atlas.jpeg",
+        altTxt: "",
+      },
+      {
+        linkTitle: "",
+        backGroundColor: "",
+        imgAdd: "images/Databases/open-access/maps/",
+        altTxt: "",
+      },
+    ],
+  },
+  {
+    sectionTitle: "Open Access Addresses for Research",
+    links: [
+      {
+        linkTitle: "",
+        backGroundColor: "#deecf2",
+        imgAdd: "images/Databases/open-access/Addresses/project-gutenberg.png",
+        altTxt: "",
+      },
+      {
+        linkTitle: "",
+        backGroundColor: "#ffffff",
+        imgAdd: "images/Databases/open-access/Addresses/wayback-machine.png",
+        altTxt: "",
+      },
+      {
+        linkTitle: "",
+        backGroundColor: "#282624",
+        imgAdd: "images/Databases/open-access/Addresses/daoj.jpeg",
+        altTxt: "",
+      },
+      {
+        linkTitle: "",
+        backGroundColor: "#ffffff",
+        imgAdd:
+          "images/Databases/open-access/Addresses/The-online-books-page.png",
+        altTxt: "",
+      },
+      {
+        linkTitle: "",
+        backGroundColor: "",
+        imgAdd: "images/Databases/open-access/Addresses/",
+        altTxt: "",
+      },
+      {
+        linkTitle: "",
+        backGroundColor: "",
+        imgAdd: "images/Databases/open-access/Addresses/",
+        altTxt: "",
+      },
+      {
+        linkTitle: "",
+        backGroundColor: "#ffffff",
+        imgAdd: "images/Databases/open-access/Addresses/doab.png",
+        altTxt: "",
+      },
+      {
+        linkTitle: "",
+        backGroundColor: "",
+        imgAdd: "images/Databases/open-access/Addresses/",
+        altTxt: "",
+      },
+      {
+        linkTitle: "",
+        backGroundColor: "#ffffff",
+        imgAdd: "images/Databases/open-access/Addresses/google-scholar.png",
+        altTxt: "",
+      },
+      {
+        linkTitle: "",
+        backGroundColor: "#ffffff",
+        imgAdd: "images/Databases/open-access/Addresses/science-direct.png",
+        altTxt: "",
+      },
+      {
+        linkTitle: "",
+        backGroundColor: "",
+        imgAdd: "images/Databases/open-access/Addresses/",
+        altTxt: "",
+      },
+      {
+        linkTitle: "",
+        backGroundColor: "",
+        imgAdd: "images/Databases/open-access/Addresses/",
+        altTxt: "",
+      },
+      {
+        linkTitle: "",
+        backGroundColor: "#e10000",
+        imgAdd: "images/Databases/open-access/Addresses/interopen.svg",
+        altTxt: "",
+      },
+      {
+        linkTitle: "",
+        backGroundColor: "#ffffff",
+        imgAdd: "images/Databases/open-access/Addresses/free-Ebooks.png",
+        altTxt: "",
+      },
+      {
+        linkTitle: "",
+        backGroundColor: "#2c2c2c",
+        imgAdd: "images/Databases/open-access/Addresses/internet-archive.jpeg",
+        altTxt: "",
+      },
+    ],
+  },
+];
+
+export const subscribedDatabases = [
+  {
+    linkDesc: "Academic Journals",
+    backGroundColor: "#ffffff",
+    color: "",
+    imgAdd: "images/Databases/subscribed/nature.svg",
+    altTxt: "",
+  },
+  {
+    linkDesc: "BMJ Online Journals",
+    backGroundColor: "#ffffff",
+    color: "",
+    imgAdd: "images/Databases/subscribed/bmj-jornals.svg",
+    altTxt: "",
+  },
+  {
+    linkDesc: "EBSCOHOST",
+    backGroundColor: "#f5f5f5",
+    color: "",
+    imgAdd: "images/Databases/subscribed/ebsco.jpeg",
+    altTxt: "",
+  },
+  {
+    linkDesc: "DynaMed",
+    backGroundColor: "#f5f5f5",
+    color: "",
+    imgAdd: "images/Databases/subscribed/dynamed.jpeg",
+    altTxt: "",
+  },
+  {
+    linkDesc: "Mendeley",
+    backGroundColor: "#9b121c",
+    color: "#ffffff",
+    imgAdd: "images/Databases/subscribed/mendeley.png",
+    altTxt: "",
+  },
+  {
+    linkDesc: "IEEE",
+    backGroundColor: "#14303e",
+    color: "#d8dddd",
+    imgAdd: "images/Databases/subscribed/ieee.svg",
+    altTxt: "",
+  },
+  {
+    linkDesc: "OVID-LWW",
+    backGroundColor: "#f1f1f1",
+    color: "",
+    imgAdd: "images/Databases/subscribed/ovid.png",
+    altTxt: "",
+  },
+  {
+    linkDesc: "ScienceDirect",
+    backGroundColor: "#ffffff",
+    color: "",
+    imgAdd: "images/Databases/subscribed/science-direct.png",
+    altTxt: "",
+  },
+  {
+    linkDesc: "Scopus",
+    backGroundColor: "#ffffff",
+    color: "",
+    imgAdd: "images/Databases/subscribed/scopus.jpeg",
+    altTxt: "",
+  },
+  {
+    linkDesc: "Wiley",
+    backGroundColor: "#ffffff",
+    color: "",
+    imgAdd: "images/Databases/subscribed/wiley.webp",
+    altTxt: "",
+  },
+  {
+    linkDesc: "iThenticate",
+    backGroundColor: "#ffffff",
+    color: "",
+    imgAdd: "images/Databases/subscribed/iThenticate.webp",
+    altTxt: "",
+  },
+  {
+    linkDesc: "Taylor & Francis",
+    backGroundColor: "#ffffff",
+    color: "",
+    imgAdd: "images/Databases/subscribed/taylor.svg",
+    altTxt: "",
+  },
+  {
+    linkDesc: "SpringerLink",
+    backGroundColor: "#ffffff",
+    color: "",
+    imgAdd: "images/Databases/subscribed/springerlink.svg",
+    altTxt: "",
+  },
+  {
+    linkDesc: "Web of Science",
+    backGroundColor: "#ffffff",
+    color: "",
+    imgAdd: "images/Databases/subscribed/web-of-science.svg",
+    altTxt: "",
+  },
+  {
+    linkDesc: "Business Source Complete",
+    backGroundColor: "#f5f5f5",
+    color: "",
+    imgAdd: "images/Databases/subscribed/business-src-somplete.jpeg",
+    altTxt: "",
+  },
+  {
+    linkDesc: "Education Index Retrospective",
+    backGroundColor: "#f5f5f5",
+    color: "",
+    imgAdd: "images/Databases/subscribed/education-index-retrospective.jpeg",
+    altTxt: "",
+  },
+  {
+    linkDesc: "Emerald Premier eJournal",
+    backGroundColor: "#171a1dcc",
+    color: "#ffffff",
+    imgAdd: "images/Databases/subscribed/emerald.svg",
+    altTxt: "",
+  },
+  {
+    linkDesc: "Palgrave Macmillan Journals",
+    backGroundColor: "#ffffff",
+    color: "",
+    imgAdd: "images/Databases/subscribed/palgrave.svg",
+    altTxt: "",
+  },
+  {
+    linkDesc: "Turnitin",
+    backGroundColor: "#ffffff",
+    color: "",
+    imgAdd: "images/Databases/subscribed/turnitin.svg",
+    altTxt: "",
+  },
+  {
+    linkDesc: "ProQuest Dissertations & Theses",
+    backGroundColor: "#118289",
+    color: "#d8dddd",
+    imgAdd: "images/Databases/subscribed/proquest.svg",
+    altTxt: "",
+  },
+  {
+    linkDesc: "Social Sciences Index Retrospective",
+    backGroundColor: "#f5f5f5",
+    color: "",
+    imgAdd:
+      "images/Databases/subscribed/social-science-index-retrospective.jpeg",
+    altTxt: "",
+  },
+  {
+    linkDesc: "Humanities & Social Sciences Index Retrospective",
+    backGroundColor: "#f5f5f5",
+    color: "",
+    imgAdd: "images/Databases/subscribed/humanities-index-retrospective.jpeg",
+    altTxt: "",
+  },
+  {
+    linkDesc: "Applied Science & Business Periodicals Retrospective Index",
+    backGroundColor: "#f5f5f5",
+    color: "",
+    imgAdd:
+      "images/Databases/subscribed/business-periodicals-index-retrospective.jpeg",
+    altTxt: "",
+  },
+  {
+    linkDesc: "Applied Science & Technology Index Retrospective",
+    backGroundColor: "#f5f5f5",
+    color: "",
+    imgAdd: "images/Databases/subscribed/technology-index-retrospective.jpeg",
+    altTxt: "",
+  },
+  {
+    linkDesc: "JSTOR Archive Journal Content",
+    backGroundColor: "#f5f5f5",
+    color: "",
+    imgAdd: "images/Databases/subscribed/jstor.svg",
+    altTxt: "",
+  },
+];
