@@ -32,12 +32,14 @@ const renderOpenAcsessDB = function () {
                 title="${cur.linkTitle}"
                 style="background-color: ${cur.backGroundColor}"
               >
-                <img
-                  src="${cur.imgAdd}"
-                  alt="${cur.altTxt}"
-                  height="25px"
-                  class="link--img"
-                />
+                <a${cur.link ? ` href=${cur.link}` : ""}>
+                  <img
+                    src="${cur.imgAdd}"
+                    alt="${cur.altTxt}"
+                    height="25px"
+                    class="link--img"
+                  />
+                </a>
               </div>
             `,
             ""

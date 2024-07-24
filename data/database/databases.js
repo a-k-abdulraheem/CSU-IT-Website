@@ -7,31 +7,36 @@ export const openAccessDatabases = [
         backGroundColor: "#ffffff",
         imgAdd: "images/Databases/open-access/Dictionaries/oxford.webp",
         altTxt: "",
+        link: "https://languages.oup.com",
       },
       {
-        linkTitle: "",
+        linkTitle: "collinsdictionary.com (bilingual)",
         backGroundColor: "#ffffff",
         imgAdd: "images/Databases/open-access/Dictionaries/collins.svg",
         altTxt: "",
+        link: "https://www.collinsdictionary.com",
       },
       {
-        linkTitle: "",
+        linkTitle: "dictionary.cambridge.org (bilingual)",
         backGroundColor: "#0f173b",
         imgAdd: "images/Databases/open-access/Dictionaries/cambridge.png",
         altTxt: "",
+        link: "https://dictionary.cambridge.org",
       },
       {
-        linkTitle: "",
+        linkTitle: "merriam-webster.com (english)",
         backGroundColor: "#ffffff",
         imgAdd:
           "images/Databases/open-access/Encyclopedias/merriam-webster.png",
         altTxt: "",
+        link: "",
       },
       {
-        linkTitle: "",
+        linkTitle: "tdk.org.tr (Turkish)",
         backGroundColor: "#e9f2fc",
         imgAdd: "images/Databases/open-access/Dictionaries/yerel-rehba.png",
         altTxt: "",
+        link: "",
       },
     ],
   },
@@ -43,6 +48,7 @@ export const openAccessDatabases = [
         backGroundColor: "#071c2e",
         imgAdd: "images/Databases/open-access/Encyclopedias/britannica.webp",
         altTxt: "",
+        link: "",
       },
       {
         linkTitle: "",
@@ -50,6 +56,7 @@ export const openAccessDatabases = [
         imgAdd:
           "images/Databases/open-access/Encyclopedias/merriam-webster.png",
         altTxt: "",
+        link: "",
       },
     ],
   },
@@ -61,6 +68,7 @@ export const openAccessDatabases = [
         backGroundColor: "",
         imgAdd: "images/Databases/open-access/Biographies/",
         altTxt: "",
+        link: "",
       },
       {
         linkTitle: "",
@@ -68,12 +76,14 @@ export const openAccessDatabases = [
         imgAdd:
           "images/Databases/open-access/Biographies/The-Pulitzer-Prizes.jpeg",
         altTxt: "",
+        link: "",
       },
       {
         linkTitle: "",
         backGroundColor: "",
         imgAdd: "images/Databases/open-access/Biographies/",
         altTxt: "",
+        link: "",
       },
     ],
   },
@@ -85,12 +95,14 @@ export const openAccessDatabases = [
         backGroundColor: "#005af0",
         imgAdd: "images/Databases/open-access/maps/world-atlas.jpeg",
         altTxt: "",
+        link: "",
       },
       {
         linkTitle: "",
         backGroundColor: "",
         imgAdd: "images/Databases/open-access/maps/",
         altTxt: "",
+        link: "",
       },
     ],
   },
@@ -102,18 +114,21 @@ export const openAccessDatabases = [
         backGroundColor: "#deecf2",
         imgAdd: "images/Databases/open-access/Addresses/project-gutenberg.png",
         altTxt: "",
+        link: "",
       },
       {
         linkTitle: "",
         backGroundColor: "#ffffff",
         imgAdd: "images/Databases/open-access/Addresses/wayback-machine.png",
         altTxt: "",
+        link: "",
       },
       {
         linkTitle: "",
         backGroundColor: "#282624",
         imgAdd: "images/Databases/open-access/Addresses/daoj.jpeg",
         altTxt: "",
+        link: "",
       },
       {
         linkTitle: "",
@@ -121,72 +136,84 @@ export const openAccessDatabases = [
         imgAdd:
           "images/Databases/open-access/Addresses/The-online-books-page.png",
         altTxt: "",
+        link: "",
       },
       {
         linkTitle: "",
         backGroundColor: "",
         imgAdd: "images/Databases/open-access/Addresses/",
         altTxt: "",
+        link: "",
       },
       {
         linkTitle: "",
         backGroundColor: "",
         imgAdd: "images/Databases/open-access/Addresses/",
         altTxt: "",
+        link: "",
       },
       {
         linkTitle: "",
         backGroundColor: "#ffffff",
         imgAdd: "images/Databases/open-access/Addresses/doab.png",
         altTxt: "",
+        link: "",
       },
       {
         linkTitle: "",
         backGroundColor: "",
         imgAdd: "images/Databases/open-access/Addresses/",
         altTxt: "",
+        link: "",
       },
       {
         linkTitle: "",
         backGroundColor: "#ffffff",
         imgAdd: "images/Databases/open-access/Addresses/google-scholar.png",
         altTxt: "",
+        link: "",
       },
       {
         linkTitle: "",
         backGroundColor: "#ffffff",
         imgAdd: "images/Databases/open-access/Addresses/science-direct.png",
         altTxt: "",
+        link: "",
       },
       {
         linkTitle: "",
         backGroundColor: "",
         imgAdd: "images/Databases/open-access/Addresses/",
         altTxt: "",
+        link: "",
       },
       {
         linkTitle: "",
         backGroundColor: "",
         imgAdd: "images/Databases/open-access/Addresses/",
         altTxt: "",
+        link: "",
       },
       {
         linkTitle: "",
         backGroundColor: "#e10000",
         imgAdd: "images/Databases/open-access/Addresses/interopen.svg",
         altTxt: "",
+        link: "",
       },
       {
         linkTitle: "",
         backGroundColor: "#ffffff",
         imgAdd: "images/Databases/open-access/Addresses/free-Ebooks.png",
         altTxt: "",
+        link: "",
       },
       {
         linkTitle: "",
         backGroundColor: "#2c2c2c",
         imgAdd: "images/Databases/open-access/Addresses/internet-archive.jpeg",
         altTxt: "",
+        link: "",
       },
     ],
   },
@@ -199,6 +226,7 @@ export const subscribedDatabases = [
     color: "",
     imgAdd: "images/Databases/subscribed/nature.svg",
     altTxt: "",
+    link: "",
   },
   {
     linkDesc: "BMJ Online Journals",
@@ -206,6 +234,7 @@ export const subscribedDatabases = [
     color: "",
     imgAdd: "images/Databases/subscribed/bmj-jornals.svg",
     altTxt: "",
+    link: "",
   },
   {
     linkDesc: "EBSCOHOST",
@@ -213,6 +242,7 @@ export const subscribedDatabases = [
     color: "",
     imgAdd: "images/Databases/subscribed/ebsco.jpeg",
     altTxt: "",
+    link: "",
   },
   {
     linkDesc: "DynaMed",
@@ -220,6 +250,7 @@ export const subscribedDatabases = [
     color: "",
     imgAdd: "images/Databases/subscribed/dynamed.jpeg",
     altTxt: "",
+    link: "",
   },
   {
     linkDesc: "Mendeley",
@@ -227,6 +258,7 @@ export const subscribedDatabases = [
     color: "#ffffff",
     imgAdd: "images/Databases/subscribed/mendeley.png",
     altTxt: "",
+    link: "",
   },
   {
     linkDesc: "IEEE",
@@ -234,6 +266,7 @@ export const subscribedDatabases = [
     color: "#d8dddd",
     imgAdd: "images/Databases/subscribed/ieee.svg",
     altTxt: "",
+    link: "",
   },
   {
     linkDesc: "OVID-LWW",
@@ -241,6 +274,7 @@ export const subscribedDatabases = [
     color: "",
     imgAdd: "images/Databases/subscribed/ovid.png",
     altTxt: "",
+    link: "",
   },
   {
     linkDesc: "ScienceDirect",
@@ -248,6 +282,7 @@ export const subscribedDatabases = [
     color: "",
     imgAdd: "images/Databases/subscribed/science-direct.png",
     altTxt: "",
+    link: "",
   },
   {
     linkDesc: "Scopus",
@@ -255,6 +290,7 @@ export const subscribedDatabases = [
     color: "",
     imgAdd: "images/Databases/subscribed/scopus.jpeg",
     altTxt: "",
+    link: "",
   },
   {
     linkDesc: "Wiley",
@@ -262,6 +298,7 @@ export const subscribedDatabases = [
     color: "",
     imgAdd: "images/Databases/subscribed/wiley.webp",
     altTxt: "",
+    link: "",
   },
   {
     linkDesc: "iThenticate",
@@ -269,6 +306,7 @@ export const subscribedDatabases = [
     color: "",
     imgAdd: "images/Databases/subscribed/iThenticate.webp",
     altTxt: "",
+    link: "",
   },
   {
     linkDesc: "Taylor & Francis",
@@ -276,6 +314,7 @@ export const subscribedDatabases = [
     color: "",
     imgAdd: "images/Databases/subscribed/taylor.svg",
     altTxt: "",
+    link: "",
   },
   {
     linkDesc: "SpringerLink",
@@ -283,6 +322,7 @@ export const subscribedDatabases = [
     color: "",
     imgAdd: "images/Databases/subscribed/springerlink.svg",
     altTxt: "",
+    link: "",
   },
   {
     linkDesc: "Web of Science",
@@ -290,6 +330,7 @@ export const subscribedDatabases = [
     color: "",
     imgAdd: "images/Databases/subscribed/web-of-science.svg",
     altTxt: "",
+    link: "",
   },
   {
     linkDesc: "Business Source Complete",
@@ -297,6 +338,7 @@ export const subscribedDatabases = [
     color: "",
     imgAdd: "images/Databases/subscribed/business-src-somplete.jpeg",
     altTxt: "",
+    link: "",
   },
   {
     linkDesc: "Education Index Retrospective",
@@ -304,6 +346,7 @@ export const subscribedDatabases = [
     color: "",
     imgAdd: "images/Databases/subscribed/education-index-retrospective.jpeg",
     altTxt: "",
+    link: "",
   },
   {
     linkDesc: "Emerald Premier eJournal",
@@ -311,6 +354,7 @@ export const subscribedDatabases = [
     color: "#ffffff",
     imgAdd: "images/Databases/subscribed/emerald.svg",
     altTxt: "",
+    link: "",
   },
   {
     linkDesc: "Palgrave Macmillan Journals",
@@ -318,6 +362,7 @@ export const subscribedDatabases = [
     color: "",
     imgAdd: "images/Databases/subscribed/palgrave.svg",
     altTxt: "",
+    link: "",
   },
   {
     linkDesc: "Turnitin",
@@ -325,6 +370,7 @@ export const subscribedDatabases = [
     color: "",
     imgAdd: "images/Databases/subscribed/turnitin.svg",
     altTxt: "",
+    link: "",
   },
   {
     linkDesc: "ProQuest Dissertations & Theses",
@@ -332,6 +378,7 @@ export const subscribedDatabases = [
     color: "#d8dddd",
     imgAdd: "images/Databases/subscribed/proquest.svg",
     altTxt: "",
+    link: "",
   },
   {
     linkDesc: "Social Sciences Index Retrospective",
@@ -340,6 +387,7 @@ export const subscribedDatabases = [
     imgAdd:
       "images/Databases/subscribed/social-science-index-retrospective.jpeg",
     altTxt: "",
+    link: "",
   },
   {
     linkDesc: "Humanities & Social Sciences Index Retrospective",
@@ -347,6 +395,7 @@ export const subscribedDatabases = [
     color: "",
     imgAdd: "images/Databases/subscribed/humanities-index-retrospective.jpeg",
     altTxt: "",
+    link: "",
   },
   {
     linkDesc: "Applied Science & Business Periodicals Retrospective Index",
@@ -355,6 +404,7 @@ export const subscribedDatabases = [
     imgAdd:
       "images/Databases/subscribed/business-periodicals-index-retrospective.jpeg",
     altTxt: "",
+    link: "",
   },
   {
     linkDesc: "Applied Science & Technology Index Retrospective",
@@ -362,6 +412,7 @@ export const subscribedDatabases = [
     color: "",
     imgAdd: "images/Databases/subscribed/technology-index-retrospective.jpeg",
     altTxt: "",
+    link: "",
   },
   {
     linkDesc: "JSTOR Archive Journal Content",
@@ -369,5 +420,6 @@ export const subscribedDatabases = [
     color: "",
     imgAdd: "images/Databases/subscribed/jstor.svg",
     altTxt: "",
+    link: "",
   },
 ];
