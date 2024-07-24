@@ -1,0 +1,52 @@
+main {
+    margin-bottom: 3rem;
+}
+
+.information{
+    text-align: justify;
+}
+
+.information > * {
+    margin-bottom: 10px;
+}
+
+.initial-padding {
+    padding-left:4rem;
+    li {
+        margin-bottom: 10px;
+    }
+}
+
+.first-part{
+    text-align : center;
+}
+.second-part{
+    text-align: center;
+}
+.third-part{
+    text-align: center;
+}
+.chapter-four{
+    text-align: center;
+}
+.chapter-five{
+    text-align: center;
+}
+.chapter-six{
+    text-align: center; 
+}
+.chapter-seven{
+    text-align: center; 
+}
+.chapter-eight{
+    text-align: center; 
+}
+.chapter-nine{
+    text-align: center;
+}
+.senate-date-of-acceptance{
+    text-align: right;
+}
+.update{
+    text-align: right;
+}
