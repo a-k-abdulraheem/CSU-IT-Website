@@ -1,0 +1,13 @@
+main {
+    margin-bottom: 3rem;
+            text-align: justify;
+        }
+.initial-padding {
+    padding-left:4rem;
+    li {
+        margin-bottom: 10px;
+    }
+}
+.date{
+    text-align: right;
+}
