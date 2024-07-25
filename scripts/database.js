@@ -16,6 +16,26 @@ const containerSubscribedDatabase = document.querySelector(
   ".subscribed-database--links"
 );
 
+const showAfterLoadingImages = function (containerElem, loadingElem) {
+  let imgLoaded = 0;
+  const images = containerElem.querySelectorAll("img");
+
+  const checkLoadedImgs = function () {
+    imgLoaded++;
+    if (imgLoaded !== images.length) return;
+
+    loadingElem.remove();
+    containerElem.classList.remove("hidden--element");
+  };
+
+  images.forEach((img) => {
+    // Successfully loaded
+    img.addEventListener("load", checkLoadedImgs);
+    // Unsuccessfully loaded
+    img.addEventListener("error", checkLoadedImgs);
+  });
+};
+
 const renderOpenAcsessDB = function () {
   let html = "";
   openAccessDatabases.forEach((section) => {
@@ -27,20 +47,19 @@ const renderOpenAcsessDB = function () {
             (acc, cur) =>
               acc +
               `
-              <div
+              <a
+                ${cur.link ? ` href=${cur.link}` : ""}
                 class="link"
                 title="${cur.linkTitle}"
                 style="background-color: ${cur.backGroundColor}"
               >
-                <a${cur.link ? ` href=${cur.link}` : ""}>
-                  <img
-                    src="${cur.imgAdd}"
-                    alt="${cur.altTxt}"
-                    height="25px"
-                    class="link--img"
-                  />
-                </a>
-              </div>
+                <img
+                  src="${cur.imgAdd}"
+                  alt="${cur.altTxt}"
+                  height="25px"
+                  class="link--img"
+                />
+              </a>
             `,
             ""
           )}
@@ -48,7 +67,17 @@ const renderOpenAcsessDB = function () {
       </div>
     `;
   });
-  containerOpenDatabase.innerHTML = html;
+  containerOpenDatabase.innerHTML = '<div class="loading"></div>';
+
+  containerOpenDatabase.innerHTML += `
+    <div class="links--section--container hidden--element">
+      ${html}
+    </div>
+  `;
+
+  const hiddenElem = document.querySelector(".hidden--element");
+  const loadingElem = document.querySelector(".loading");
+  showAfterLoadingImages(hiddenElem, loadingElem);
 };
 renderOpenAcsessDB();
 
@@ -69,13 +98,20 @@ const renderSubscribedDD = function () {
       </div>
     `;
   });
-  containerSubscribedDatabase.innerHTML = `
-    <div class="links--section">
+
+  containerSubscribedDatabase.innerHTML = '<div class="loading"></div>';
+
+  containerSubscribedDatabase.innerHTML += `
+    <div class="links--section hidden--element">
       <div class="links">
         ${html}
       </div>
     </div>
   `;
+
+  const hiddenElem = document.querySelector(".hidden--element");
+  const loadingElem = document.querySelector(".loading");
+  showAfterLoadingImages(hiddenElem, loadingElem);
 };
 
 const removeOpenDatabase = function () {
@@ -105,11 +141,6 @@ databaseOptnsContainer.addEventListener("click", function (e) {
   }
 });
 
-// containerDatabaseLinks.addEventListener("mouseover", function (e) {
-//   e.preventDefault();
-//   if (e.target.classList.contains("link")) {
-//     [...e.target.closest(".links").children].forEach((elem) => {
-//       if (e.target !== elem) elem.style.opacity = "0.2";
-//     });
-//   }
-// });
+// fix links
+// footer
+// index db section

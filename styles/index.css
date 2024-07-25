@@ -143,8 +143,13 @@
   margin-top: 4rem;
 }
 
-.clr-white {
-  color: white;
+.btn--see-more {
+  margin-top: 0.5rem;
+  display: inline-block;
+}
+
+.btn--see-more:hover {
+  color: var(--color-orange);
 }
 
 .database_system-img {
@@ -162,22 +167,26 @@
   background-color: transparent;
   padding: 5em;
   align-self: center;
+}
 
-  h1 {
-    text-align: center;
-    font-size: 5rem;
-    color: white;
-  }
+.db-heading {
+  font-weight: bold;
+  color: white;
+}
+
+.db-option {
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 .db-1,
 .db-2 {
   border-radius: 0.8rem;
-  background-color: rgb(231, 231, 230);
+  background-color: white;
   margin-top: 5rem;
+  padding: 2rem;
   display: flex;
   align-items: center;
-  font-weight: 600;
 }
 
 .database_system-img-2 {
